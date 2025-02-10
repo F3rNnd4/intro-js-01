@@ -11,11 +11,11 @@
 </head>
 
 <body>
-    <h1>Contador</h1>
+    <h1>🍓Contador🍓</h1>
 
     <div class="contador-container">
         <div class="adicionar">
-            <button id="btn" onclick="adição()">Acréscimo</button>
+            <button id="btn-add" onclick="adição()">Acréscimo</button>
         </div>
     
         <div>
@@ -23,16 +23,18 @@
         </div>
     
         <div class="subtrair">
-            <button id="btn" onclick="subtração()">Decréscimo</button>
-        </div>
-    
-        <div class="resetar">
-            <button id="btn" onclick="reset()">Reset</button>
+            <button id="btn-sub" onclick="subtração()">Decréscimo</button>
         </div>
     </div>
 
+    <div class="resetar">
+        <button id="btn-reset" onclick="reset()">Reset</button>
+    </div>
+
+    <div class="navigation">
         <button><a href="/index.html">Ir para Index Page</a></button>
         <button><a href="./math.html">Ir para Math Page</a></button>
+    </div>
 
     <script src="../assets/scripts/count.scripts.js"></script>
 </body>
