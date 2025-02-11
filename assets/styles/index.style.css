@@ -18,6 +18,7 @@ h1 {
 
 #nome {
     font-size: 30px;
+    border-radius: 5px;
 }
 
 .btn-mostrar {
